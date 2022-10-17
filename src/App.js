@@ -140,7 +140,7 @@ function App() {
       <Double
         img1={stratford1}
         img2={london5}
-        location1={"Stratford, England"}
+        location1={"Stratford-upon-Avon, England"}
         location2={"London, England"}
         time1={"May 2022"}
         time2={"October 2021"}
