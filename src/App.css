@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+p,
+a {
+  font-family: 'Fira Code', monospace;
+}
+
+body {
+  background-color: #121212;
+  color: #e69138;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +45,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-gap: 20px;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
